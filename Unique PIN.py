@@ -30,7 +30,7 @@ print(t)
 def unique(t):
     for i in range(0,len(t)-1):
         if t[i]==t[i+1]:
-            return False
-    return True        
+            return "Duplicates detected, try again"
+    return "PIN OK"        
 print(unique(t))
 
